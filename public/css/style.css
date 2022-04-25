@@ -69,9 +69,15 @@ body{
     border-radius: 20px;
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
+    cursor: pointer;
     font-size: 24px;
     color: #2F2325;
+   
 }
+.conteudo-principal-escrito-botao:hover{
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
 .conteudo-principal-imagem{
     height: 430px;
 }
@@ -98,4 +104,13 @@ body{
     font-size: 18px;
     color: #ECD6C4;
 }
-
+/*footer*/
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+.rodape-imagem{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
